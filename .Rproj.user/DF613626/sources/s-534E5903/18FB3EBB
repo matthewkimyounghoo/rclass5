@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533343174743.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2046880218",
+    "id" : "18FB3EBB",
+    "lastKnownWriteTime" : 1533374281,
+    "last_content_update" : 1533374281976,
+    "path" : "C:/R/180804/seou.R",
+    "project_path" : "seou.R",
+    "properties" : {
+        "cursorPosition" : "35,35",
+        "scrollLine" : "21",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
