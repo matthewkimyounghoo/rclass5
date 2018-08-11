@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533956955035.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3319368967",
+    "id" : "4581E5CA",
+    "lastKnownWriteTime" : 1533958595,
+    "last_content_update" : 1533958595636,
+    "path" : "C:/R/180804/GenderOnClick.R",
+    "project_path" : "GenderOnClick.R",
+    "properties" : {
+        "cursorPosition" : "23,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

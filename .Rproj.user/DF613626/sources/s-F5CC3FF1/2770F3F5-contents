@@ -1,0 +1,32 @@
+library("shiny")
+library("shinyjs")
+library("shinydashboard")
+ui=shiny::fluidPage(
+  useShinyjs(),
+  shiny::actionButton("btn","클릭")
+)
+server=function(input,output,session){
+  onclick("btn",info(date()))
+}
+if(interactive()){
+  shiny::shinyApp(ui,server)
+}
+
+if (interactive()){
+  shiny::shinyApp(
+    ui=shiny::fluidPage(
+      useShinyjs(),
+      shiny::actionButton("btn","클릭"),
+      shiny::p(id='element',"클릭")
+    ),
+    server = function(input,output,session){
+      onclick("btn",info(date()))
+      onclick("element",text("element","안녕!"))
+    }
+  )
+}
+
+onclick("btn",toggle("element"))
+onclick(expr = text("element",date()),id="btn")
+{onclick("btn",info(date()));onclick("btn",info("Another message"),TRUE)}
+

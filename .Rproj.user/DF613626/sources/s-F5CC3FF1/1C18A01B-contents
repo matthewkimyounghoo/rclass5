@@ -1,0 +1,30 @@
+library("shiny")
+library("shinyjs")
+library("shinydashboard")
+
+bmi <- function(t,w){
+  res <- w%/%((t/100)^2)
+  return(if (res>=18.5 & res<=22.9) '정상' else
+    if (res>=35) '고도비만' else
+      if (res>=30 & res<35) '중증도 비만' else
+        if (res>=25 & res<30) '경도 비만' else
+          if (res>=23 & res<=24.9) '과체중' else
+            if (res<18.5) '저체중')
+}
+
+ui <- fluidPage(
+  useShinyjs(),
+  numericInput("t","키:",10,min=1,max=100),
+  numericInput("w","몸무게:",10,min=1,max=100),
+  #verbatimTextOutput("value")
+  shiny::actionButton("btn","클릭")
+)
+server=function(input,output,session){
+  onclick("btn",info({bmi(input$t,input$w)}))
+}
+
+if (interactive()){
+  shiny::shinyApp(ui,server)
+}
+
+

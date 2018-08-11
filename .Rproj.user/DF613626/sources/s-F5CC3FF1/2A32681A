@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533958938321.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1871166676",
+    "id" : "2A32681A",
+    "lastKnownWriteTime" : 1533959283,
+    "last_content_update" : 1533959486031,
+    "path" : "C:/R/180804/RPSshiny.R",
+    "project_path" : "RPSshiny.R",
+    "properties" : {
+        "cursorPosition" : "16,1",
+        "scrollLine" : "2",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

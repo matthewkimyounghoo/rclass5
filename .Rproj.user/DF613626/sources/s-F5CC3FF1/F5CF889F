@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533955275522.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4136513657",
+    "id" : "F5CF889F",
+    "lastKnownWriteTime" : 1533955290,
+    "last_content_update" : 1533955744631,
+    "path" : "C:/R/180804/OnclickShiny.R",
+    "project_path" : "OnclickShiny.R",
+    "properties" : {
+        "cursorPosition" : "22,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

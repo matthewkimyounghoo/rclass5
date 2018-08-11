@@ -1,0 +1,48 @@
+library(tm)
+library(wordcloud)
+library(RColorBrewer)
+update.packages(checkBuilt = T,ask = F)
+target <- readLines("https://www.dropbox.com/s/e707rz9mg7j4to0/%EC%84%9C%EC%9A%B8_%EC%8B%A0%EB%9D%BC%ED%98%B8%ED%85%94%EB%A6%AC%EB%B7%B0.txt?dl=1")
+head(target)
+target <- VCorpus(VectorSource(target))
+class(target)
+target <- tm_map(target,stripWhitespace)
+#target <- tm_map(target,tolower)
+target <- tm_map(target,removePunctuation)
+target <- tm_map(target,PlainTextDocument)
+mystopword <- c(stopwords('english'),"수 있는","싶습니다","서울에서","하고","은","이용했습니다","곳이예요")
+target <- tm_map(target,removeWords,mystopword)
+head(target)
+target <- TermDocumentMatrix(target)
+findAssocs(target,"신라호텔",0.5)
+target <- as.matrix(target)
+nrow(target)
+head(target)
+target <- sort(rowSums(target),decreasing = T)
+head(target,20)
+pal <- brewer.pal(9,"Set3")
+wordcloud(
+  names(target),
+  freq=target,
+  scale = c(5,1),
+  rot.per=0.25,
+  min.freq = 3,
+  random.order = F,
+  random.color = T,
+  colors=pal
+)
+legend(
+  0.3,
+  1,
+  "서울 신라호텔 이용후기 분석",
+  cex=0.8,
+  fill=NA,
+  border=NA,
+  bg='white',
+  text.col="red",
+  text.font=2,
+  box.col="red"
+)
+###########################################################
+  
+  

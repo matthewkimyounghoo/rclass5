@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533951565512.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3965745458",
+    "id" : "C6A2897D",
+    "lastKnownWriteTime" : 1533952277,
+    "last_content_update" : 1533954860398,
+    "path" : "C:/R/180804/ShinyBMI.R",
+    "project_path" : "ShinyBMI.R",
+    "properties" : {
+        "cursorPosition" : "15,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

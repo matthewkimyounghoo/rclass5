@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533960062304.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2257531270",
+    "id" : "1B4E48E4",
+    "lastKnownWriteTime" : 1533964848,
+    "last_content_update" : 1533966459165,
+    "path" : "C:/R/180804/selectrps.R",
+    "project_path" : "selectrps.R",
+    "properties" : {
+        "cursorPosition" : "11,1",
+        "scrollLine" : "8",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533967127699.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "140C6A16",
+    "lastKnownWriteTime" : 1533967137,
+    "last_content_update" : 1533969562502,
+    "path" : "C:/R/180804/Barchart Shiny.R",
+    "project_path" : "Barchart Shiny.R",
+    "properties" : {
+        "cursorPosition" : "35,0",
+        "scrollLine" : "29",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
